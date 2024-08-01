@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="History">
+    <option name="requestHistoryStates">
+      <list>
+        <requestHistoryState>
+          <option name="dateTime" value="1722450737439" />
+          <option name="id" value="602d717a-85db-402c-80ec-388b96843088" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;    &quot;long_url&quot;: &quot;https://www.guru3d.com/news-story/spotted-ryzen-threadripper-pro-3995wx-processor-with-8-channel-ddr4,2.html&quot;,&#10;    &quot;user_id&quot; : &quot;e0dba740-fc4b-4977-872c-d360239e6b10&quot;&#10;}" />
+                  <option name="type" value="PLAIN" />
+                </bodyState>
+              </option>
+              <option name="id" value="1955baa3-2e2d-4037-8936-30a285dc8e74" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft (1)" />
+              <option name="url" value="http://localhost:9808/get" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="code" value="500" />
+              <option name="contentType" value="application/octet-stream" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 31 Jul 2024 18:32:17 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="0" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="602d717a-85db-402c-80ec-388b96843088" />
+              <option name="message" value="Internal Server Error" />
+              <option name="time" value="2" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1722450776614" />
+          <option name="id" value="e07264c5-8a90-4401-995b-bcf6a59139e1" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;    &quot;long_url&quot;: &quot;https://www.guru3d.com/news-story/spotted-ryzen-threadripper-pro-3995wx-processor-with-8-channel-ddr4,2.html&quot;,&#10;    &quot;user_id&quot; : &quot;e0dba740-fc4b-4977-872c-d360239e6b10&quot;&#10;}" />
+                  <option name="type" value="PLAIN" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/plain" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="1955baa3-2e2d-4037-8936-30a285dc8e74" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft (1)" />
+              <option name="pathVariables">
+                <list>
+                  <pathVariableState>
+                    <option name="key" value="shortUrl" />
+                  </pathVariableState>
+                </list>
+              </option>
+              <option name="url" value="http://localhost:9808/:shortUrl" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiV2VsY29tZSB0byB0aGUgVVJMIFNob3J0ZW5lciBBUEkifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Welcome to the URL Shortener API&quot;&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 31 Jul 2024 18:32:56 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="46" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="e07264c5-8a90-4401-995b-bcf6a59139e1" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Welcome to the URL Shortener API&quot;}" />
+              <option name="size" value="46" />
+              <option name="time" value="1" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1722450800422" />
+          <option name="id" value="8ce08da5-a63a-4f91-8e44-06ba4d9e3f44" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;    &quot;long_url&quot;: &quot;https://www.guru3d.com/news-story/spotted-ryzen-threadripper-pro-3995wx-processor-with-8-channel-ddr4,2.html&quot;,&#10;    &quot;user_id&quot; : &quot;e0dba740-fc4b-4977-872c-d360239e6b10&quot;&#10;}" />
+                  <option name="type" value="PLAIN" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/plain" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="1955baa3-2e2d-4037-8936-30a285dc8e74" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft (1)" />
+              <option name="pathVariables">
+                <list>
+                  <pathVariableState>
+                    <option name="key" value="shortUrl" />
+                  </pathVariableState>
+                </list>
+              </option>
+              <option name="url" value="http://localhost:9808/:shortUrl" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiV2VsY29tZSB0byB0aGUgVVJMIFNob3J0ZW5lciBBUEkifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Welcome to the URL Shortener API&quot;&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 31 Jul 2024 18:33:20 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="46" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="8ce08da5-a63a-4f91-8e44-06ba4d9e3f44" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Welcome to the URL Shortener API&quot;}" />
+              <option name="size" value="46" />
+              <option name="time" value="1" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1722452030647" />
+          <option name="id" value="1ef1e001-39ec-47e8-b88c-500d2c3eea46" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;    &quot;long_url&quot;: &quot;https://www.guru3d.com/news-story/spotted-ryzen-threadripper-pro-3995wx-processor-with-8-channel-ddr4,2.html&quot;,&#10;    &quot;user_id&quot; : &quot;e0dba740-fc4b-4977-872c-d360239e6b10&quot;&#10;}" />
+                  <option name="type" value="PLAIN" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/plain" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="1955baa3-2e2d-4037-8936-30a285dc8e74" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft (1)" />
+              <option name="pathVariables">
+                <list>
+                  <pathVariableState>
+                    <option name="key" value="shortUrl" />
+                  </pathVariableState>
+                </list>
+              </option>
+              <option name="url" value="http://localhost:9808/:shortUrl" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiV2VsY29tZSB0byB0aGUgVVJMIFNob3J0ZW5lciBBUEkifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Welcome to the URL Shortener API&quot;&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 31 Jul 2024 18:53:50 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="46" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="1ef1e001-39ec-47e8-b88c-500d2c3eea46" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Welcome to the URL Shortener API&quot;}" />
+              <option name="size" value="46" />
+              <option name="time" value="1" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1722537736628" />
+          <option name="id" value="fc55994a-f166-4ca9-b698-147c050fae74" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;    &quot;long_url&quot;: &quot;https://stepik.org/lesson/855080/step/8?unit=858995&quot;,&#10;    &quot;user_id&quot; : &quot;10&quot;&#10;}" />
+                  <option name="type" value="PLAIN" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/plain" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="c9d8929e-3f0a-415c-8760-2f3a1d24ad97" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:9808/create-short-url" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="code" value="500" />
+              <option name="contentType" value="application/octet-stream" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 01 Aug 2024 18:42:16 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="0" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="fc55994a-f166-4ca9-b698-147c050fae74" />
+              <option name="message" value="Internal Server Error" />
+              <option name="time" value="801" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1722537794130" />
+          <option name="id" value="ced1ef54-c9b6-4970-b480-99721e6b3593" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;    &quot;long_url&quot;: &quot;https://stepik.org/lesson/855080/step/8?unit=858995&quot;,&#10;    &quot;user_id&quot; : &quot;10&quot;&#10;}" />
+                  <option name="type" value="PLAIN" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/plain" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="c9d8929e-3f0a-415c-8760-2f3a1d24ad97" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:9808/create-short-url" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="code" value="500" />
+              <option name="contentType" value="application/octet-stream" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 01 Aug 2024 18:43:14 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="0" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="ced1ef54-c9b6-4970-b480-99721e6b3593" />
+              <option name="message" value="Internal Server Error" />
+              <option name="time" value="414" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1722537794585" />
+          <option name="id" value="b66498b9-3e0a-41c0-9b50-4ac4619cbfa2" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;    &quot;long_url&quot;: &quot;https://stepik.org/lesson/855080/step/8?unit=858995&quot;,&#10;    &quot;user_id&quot; : &quot;10&quot;&#10;}" />
+                  <option name="type" value="PLAIN" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/plain" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="c9d8929e-3f0a-415c-8760-2f3a1d24ad97" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:9808/create-short-url" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="code" value="500" />
+              <option name="contentType" value="application/octet-stream" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 01 Aug 2024 18:43:14 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="0" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b66498b9-3e0a-41c0-9b50-4ac4619cbfa2" />
+              <option name="message" value="Internal Server Error" />
+              <option name="time" value="819" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1722537800229" />
+          <option name="id" value="94ae2a8b-ced6-4b1d-9163-943a5032e086" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;    &quot;long_url&quot;: &quot;https://stepik.org/lesson/855080/step/8?unit=858995&quot;,&#10;    &quot;user_id&quot; : &quot;10&quot;&#10;}" />
+                  <option name="type" value="PLAIN" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/plain" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="c9d8929e-3f0a-415c-8760-2f3a1d24ad97" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:9808/create-short-url" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="code" value="500" />
+              <option name="contentType" value="application/octet-stream" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 01 Aug 2024 18:43:20 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="0" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="94ae2a8b-ced6-4b1d-9163-943a5032e086" />
+              <option name="message" value="Internal Server Error" />
+              <option name="time" value="352" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1722537800663" />
+          <option name="id" value="60e16b0c-9cf5-44a3-94ae-cb3aaf6f64f9" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;    &quot;long_url&quot;: &quot;https://stepik.org/lesson/855080/step/8?unit=858995&quot;,&#10;    &quot;user_id&quot; : &quot;10&quot;&#10;}" />
+                  <option name="type" value="PLAIN" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/plain" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="c9d8929e-3f0a-415c-8760-2f3a1d24ad97" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:9808/create-short-url" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="code" value="500" />
+              <option name="contentType" value="application/octet-stream" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 01 Aug 2024 18:43:20 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="0" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="60e16b0c-9cf5-44a3-94ae-cb3aaf6f64f9" />
+              <option name="message" value="Internal Server Error" />
+              <option name="time" value="832" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1722537916909" />
+          <option name="id" value="0b0f8f0a-dd16-4de8-b7b5-50c696941122" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;    &quot;long_url&quot;: &quot;https://stepik.org/lesson/855080/step/8?unit=858995&quot;,&#10;    &quot;user_id&quot; : &quot;10&quot;&#10;}" />
+                  <option name="type" value="PLAIN" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/plain" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="c9d8929e-3f0a-415c-8760-2f3a1d24ad97" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:9808/create-short-url" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoic2hvcnQgdXJsIGNyZWF0ZWQgc3VjY2Vzc2Z1bGx5Iiwic2hvcnRfdXJsIjoiaHR0cDovL2xvY2FsaG9zdDo5ODA4L2k3Z1lrZ3VwIn0=" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;short url created successfully&quot;,&#10;  &quot;short_url&quot;: &quot;http://localhost:9808/i7gYkgup&quot;&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 01 Aug 2024 18:45:16 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="89" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="0b0f8f0a-dd16-4de8-b7b5-50c696941122" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;short url created successfully&quot;,&quot;short_url&quot;:&quot;http://localhost:9808/i7gYkgup&quot;}" />
+              <option name="size" value="89" />
+              <option name="time" value="20" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1722537916998" />
+          <option name="id" value="f11619de-5a3d-47db-938c-ef445683c5c6" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;    &quot;long_url&quot;: &quot;https://stepik.org/lesson/855080/step/8?unit=858995&quot;,&#10;    &quot;user_id&quot; : &quot;10&quot;&#10;}" />
+                  <option name="type" value="PLAIN" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/plain" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="c9d8929e-3f0a-415c-8760-2f3a1d24ad97" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:9808/create-short-url" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoic2hvcnQgdXJsIGNyZWF0ZWQgc3VjY2Vzc2Z1bGx5Iiwic2hvcnRfdXJsIjoiaHR0cDovL2xvY2FsaG9zdDo5ODA4L2k3Z1lrZ3VwIn0=" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;short url created successfully&quot;,&#10;  &quot;short_url&quot;: &quot;http://localhost:9808/i7gYkgup&quot;&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 01 Aug 2024 18:45:16 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="89" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="f11619de-5a3d-47db-938c-ef445683c5c6" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;short url created successfully&quot;,&quot;short_url&quot;:&quot;http://localhost:9808/i7gYkgup&quot;}" />
+              <option name="size" value="89" />
+              <option name="time" value="11" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1722538523602" />
+          <option name="id" value="7825a87e-ff57-47de-8ab9-74a5e1b72271" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;    &quot;long_url&quot;: &quot;https://stepik.org/lesson/855080/step/8?unit=858995&quot;,&#10;    &quot;user_id&quot; : &quot;10&quot;&#10;}" />
+                  <option name="type" value="PLAIN" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/plain" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="c9d8929e-3f0a-415c-8760-2f3a1d24ad97" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:9808/create-short-url" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="code" value="500" />
+              <option name="contentType" value="application/octet-stream" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 01 Aug 2024 18:55:23 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="0" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="7825a87e-ff57-47de-8ab9-74a5e1b72271" />
+              <option name="message" value="Internal Server Error" />
+              <option name="time" value="13" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1722538648395" />
+          <option name="id" value="0d4c6fd9-5c84-420f-b08c-85024f6216b5" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;    &quot;long_url&quot;: &quot;https://stepik.org/lesson/855080/step/8?unit=858995&quot;,&#10;    &quot;user_id&quot; : &quot;10&quot;&#10;}" />
+                  <option name="type" value="PLAIN" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/plain" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="c9d8929e-3f0a-415c-8760-2f3a1d24ad97" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:9808/create-short-url" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoic2hvcnQgdXJsIGNyZWF0ZWQgc3VjY2Vzc2Z1bGx5Iiwic2hvcnRfdXJsIjoiaHR0cDovL2xvY2FsaG9zdDo5ODA4L2k3Z1lrZ3VwIn0=" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;short url created successfully&quot;,&#10;  &quot;short_url&quot;: &quot;http://localhost:9808/i7gYkgup&quot;&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 01 Aug 2024 18:57:28 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="89" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="0d4c6fd9-5c84-420f-b08c-85024f6216b5" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;short url created successfully&quot;,&quot;short_url&quot;:&quot;http://localhost:9808/i7gYkgup&quot;}" />
+              <option name="size" value="89" />
+              <option name="time" value="32" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1722538959245" />
+          <option name="id" value="1de9c321-ce93-45b1-9e57-21d1fdb8dbff" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;    &quot;long_url&quot;: &quot;https://stepik.org/lesson/855080/step/8?unit=858995&quot;,&#10;    &quot;user_id&quot; : &quot;10&quot;&#10;}" />
+                  <option name="type" value="PLAIN" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/plain" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="c9d8929e-3f0a-415c-8760-2f3a1d24ad97" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:9808/create-short-url" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="code" value="500" />
+              <option name="contentType" value="application/octet-stream" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 01 Aug 2024 19:02:39 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="0" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="1de9c321-ce93-45b1-9e57-21d1fdb8dbff" />
+              <option name="message" value="Internal Server Error" />
+              <option name="time" value="7" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+      </list>
+    </option>
+  </component>
+</project>
