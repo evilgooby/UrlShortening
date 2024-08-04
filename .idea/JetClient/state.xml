@@ -8,7 +8,7 @@
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;    &quot;long_url&quot;: &quot;https://stepik.org/lesson/855080/step/8?unit=858995&quot;,&#10;    &quot;user_id&quot; : &quot;10&quot;&#10;}" />
+                  <option name="raw" value="{&#10;    &quot;long_url&quot;: &quot;https://www.youtube.com/watch?v=ZOI8ib7k4Ic&amp;list=RDZOI8ib7k4Ic&amp;start_radio=1&quot;,&#10;    &quot;user_id&quot; : &quot;10&quot;&#10;}" />
                   <option name="type" value="PLAIN" />
                 </bodyState>
               </option>

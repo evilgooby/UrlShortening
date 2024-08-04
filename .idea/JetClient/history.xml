@@ -236,54 +236,6 @@
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1722537800229" />
-          <option name="id" value="94ae2a8b-ced6-4b1d-9163-943a5032e086" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;    &quot;long_url&quot;: &quot;https://stepik.org/lesson/855080/step/8?unit=858995&quot;,&#10;    &quot;user_id&quot; : &quot;10&quot;&#10;}" />
-                  <option name="type" value="PLAIN" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="text/plain" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="c9d8929e-3f0a-415c-8760-2f3a1d24ad97" />
-              <option name="method" value="POST" />
-              <option name="name" value="Draft" />
-              <option name="url" value="http://localhost:9808/create-short-url" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="code" value="500" />
-              <option name="contentType" value="application/octet-stream" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Thu, 01 Aug 2024 18:43:20 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="0" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="94ae2a8b-ced6-4b1d-9163-943a5032e086" />
-              <option name="message" value="Internal Server Error" />
-              <option name="time" value="352" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
           <option name="dateTime" value="1722537800663" />
           <option name="id" value="60e16b0c-9cf5-44a3-94ae-cb3aaf6f64f9" />
           <option name="request">
@@ -765,6 +717,63 @@
               <option name="rawBodyString" value="{&quot;message&quot;:&quot;short url created successfully&quot;,&quot;short_url&quot;:&quot;http://localhost:9808/i7gYkgup&quot;}" />
               <option name="size" value="89" />
               <option name="time" value="23" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1722615769972" />
+          <option name="id" value="99795574-9ec1-4e3d-b587-3810a6d24fa7" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;    &quot;long_url&quot;: &quot;https://www.youtube.com/watch?v=ZOI8ib7k4Ic&amp;list=RDZOI8ib7k4Ic&amp;start_radio=1&quot;,&#10;    &quot;user_id&quot; : &quot;10&quot;&#10;}" />
+                  <option name="type" value="PLAIN" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/plain" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="c9d8929e-3f0a-415c-8760-2f3a1d24ad97" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:9808/create-short-url" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoic2hvcnQgdXJsIGNyZWF0ZWQgc3VjY2Vzc2Z1bGx5Iiwic2hvcnRfdXJsIjoiaHR0cDovL2xvY2FsaG9zdDo5ODA4LzVoMzR0U2Z2In0=" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;short url created successfully&quot;,&#10;  &quot;short_url&quot;: &quot;http://localhost:9808/5h34tSfv&quot;&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 02 Aug 2024 16:22:49 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="89" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="99795574-9ec1-4e3d-b587-3810a6d24fa7" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;short url created successfully&quot;,&quot;short_url&quot;:&quot;http://localhost:9808/5h34tSfv&quot;}" />
+              <option name="size" value="89" />
+              <option name="time" value="17" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />
