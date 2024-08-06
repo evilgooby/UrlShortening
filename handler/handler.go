@@ -22,7 +22,7 @@ func CreateShortUrl(c *gin.Context) {
 	shortUrl := generator.GenerateShortLink(creationRequest.LongUrl, creationRequest.UserId)
 	store.SaveUrlMapping(shortUrl, creationRequest.LongUrl, creationRequest.UserId)
 
-	host := "http://localhost:9808/"
+	host := "http://localhost:8080/"
 	c.JSON(200, gin.H{
 		"message":   "short url created successfully",
 		"short_url": host + shortUrl,
@@ -33,5 +33,8 @@ func CreateShortUrl(c *gin.Context) {
 func HandleShortUrlRedirect(c *gin.Context) {
 	shortUrl := c.Param("shortUrl")
 	initialUrl := store.RetrieveInitialUrl(shortUrl)
+	c.JSON(302, gin.H{
+		"url": initialUrl,
+	})
 	c.Redirect(302, initialUrl)
 }

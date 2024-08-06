@@ -28,19 +28,38 @@ type UrlCount struct {
 
 func InitializeStore() *StorageService {
 	redisClient := redis.NewClient(&redis.Options{
-		Addr:     "localhost:6379",
+		Addr:     "redis:6379",
 		Password: "",
 		DB:       0,
 	})
 
 	// Подключение к базе данных
-	const connStr = "postgres://postgres:2412@localhost:5432/MyBD?sslmode=disable"
+	const connStr = "postgres://postgres:1234@postgres:5432/mydb?sslmode=disable"
 	db, err := sql.Open("postgres", connStr)
 	if err != nil {
 		panic(err)
 	}
 	defer db.Close()
 
+	exists, err := TableExists(db, "shortened_urls")
+	if err != nil {
+		panic(err)
+	}
+
+	if exists {
+		fmt.Println("Таблица существует")
+	} else {
+		stmt, err := db.Prepare("CREATE TABLE " + "shortened_urls" + " (short_url TEXT PRIMARY KEY, original_url TEXT, count INT)")
+		if err != nil {
+			panic(err)
+		}
+		defer stmt.Close()
+
+		_, err = stmt.Exec()
+		if err != nil {
+			panic(err)
+		}
+	}
 	// Выполнение инструкции SQL для создания
 	pong, err := redisClient.Ping(ctx).Result()
 	if err != nil {
@@ -50,6 +69,21 @@ func InitializeStore() *StorageService {
 	fmt.Printf("\nRedis started successfully: pong message = {%s}", pong)
 	storeService.redisClient = redisClient
 	return storeService
+}
+func TableExists(db *sql.DB, tableName string) (bool, error) {
+	stmt, err := db.Prepare("SELECT EXISTS (SELECT 1 FROM information_schema.tables WHERE table_name = $1)")
+	if err != nil {
+		return false, err
+	}
+	defer stmt.Close()
+
+	var exists bool
+	err = stmt.QueryRow(tableName).Scan(&exists)
+	if err != nil {
+		return false, err
+	}
+
+	return exists, nil
 }
 
 func SaveUrlMapping(shortUrl string, originalUrl string, userId string) {
@@ -104,7 +138,7 @@ func RetrieveInitialUrl(shortUrl string) string {
 }
 
 func AddDatabaseSql(shortUrl string, originalUrl string, count int) {
-	const connStr = "postgres://postgres:2412@localhost:5432/MyBD?sslmode=disable"
+	const connStr = "postgres://postgres:1234@postgres:5432/mydb?sslmode=disable"
 	db, err := sql.Open("postgres", connStr)
 	if err != nil {
 		panic(err)
@@ -122,7 +156,7 @@ func AddDatabaseSql(shortUrl string, originalUrl string, count int) {
 }
 
 func GetCountDatabaseSql(shortUrl string) (string, int) {
-	const connStr = "postgres://postgres:2412@localhost:5432/MyBD?sslmode=disable"
+	const connStr = "postgres://postgres:1234@postgres:5432/mydb?sslmode=disable"
 	db, err := sql.Open("postgres", connStr)
 	if err != nil {
 		panic(err)
@@ -137,6 +171,7 @@ func GetCountDatabaseSql(shortUrl string) (string, int) {
         FROM shortened_urls
         WHERE short_url = $1
     `, shortUrl).Scan(&originalUrl, &count)
+
 	if err != nil {
 		if errors.Is(err, sql.ErrNoRows) {
 			fmt.Println("Значение short_url не существует в базе данных")
